@@ -1,0 +1,370 @@
+/*
+	@name web_1920___1
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; /*overflow-x:hidden;*/ }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: table; position: relative;  overflow: hidden;  }
+
+#content-container > div{ position: relative; top:inherit; }
+#page_web_1920___1_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 1286px;
+	height: 600px;
+	overflow:hidden;
+}
+
+#_bg__web_1920___1_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 1286px;
+	height: 600px;
+	background:rgba(255,255,255,255);
+}
+
+
+#navigationbar {
+	opacity:0.92156862745098;
+	top: 0px;
+	left: 0px;
+	width: 255px;
+	height: 598px;
+	border: 1px solid #707070;
+	-ms-box-shadow:0px 5px 5px 1px rgba(0,0,0,2.47);
+	-o-box-shadow:0px 5px 5px 1px rgba(0,0,0,2.47);
+	-webkit-box-shadow:0px 5px 5px 1px rgba(0,0,0,2.47);
+	-moz-box-shadow:0px 5px 5px 1px rgba(0,0,0,2.47);
+	box-shadow:0px 5px 5px 1px rgba(0,0,0,2.47);
+	background:rgba(31,14,132,235);
+}
+
+
+#songcontainer {
+	top: 332px;
+	left: 264px;
+	width: 1022px;
+	height: 268px;
+	background:rgba(18,18,18,255);
+}
+
+
+#songwrapper {
+	top: 346px;
+	left: 277px;
+	width: 217px;
+	height: 239px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #707070;
+	background:rgba(74,70,70,0.54000002145767);
+}
+
+
+.songpicture {
+	top: 35px;
+	left: 40px;
+	width: 132px;
+	height: 102px;
+	border: 1px solid #707070;
+	background:rgba(255,255,255,255);
+}
+
+audio{
+	position:relative;
+	left:0px;
+	top:180px;
+	width:100%
+}
+
+
+.song_title {
+	top: 4px;
+	left: 56px;
+	width: 99px;
+	height: 31px;
+	font-family: Segoe UI;
+	font-size: 20px;
+	text-align: center;
+	color:#ffffff;
+}
+
+
+.rectangle_7 {
+	top: 9px;
+	left: 9px;
+	width: 20px;
+	height: 22px;
+	border: 1px solid #707070;
+	background:rgba(255,255,255,0.27000001072884);
+}
+
+
+#rectangle_8 {
+	top: 21px;
+	left: 15px;
+	width: 21px;
+	height: 22px;
+	border: 1px solid #09007d;
+	background:rgba(9,0,125,0.28000000119209);
+}
+
+
+#rectangle_9 {
+	opacity:0.20000000298023;
+	top: 11px;
+	left: 6px;
+	width: 242px;
+	height: 32px;
+	-ms-border-radius: 9px;
+	-o-border-radius: 9px;
+	-moz-border-radius: 9px;
+	-webkit-border-radius: 9px;
+	border-radius: 9px;
+	border: 1px solid #707070;
+	-ms-box-shadow:0px 3px 5px 1px rgba(0,0,0,0.41);
+	-o-box-shadow:0px 3px 5px 1px rgba(0,0,0,0.41);
+	-webkit-box-shadow:0px 3px 5px 1px rgba(0,0,0,0.41);
+	-moz-box-shadow:0px 3px 5px 1px rgba(0,0,0,0.41);
+	box-shadow:0px 3px 5px 1px rgba(0,0,0,0.41);
+	background:rgba(188,184,184,255);
+}
+
+
+#search_artist {
+	position:absolute;
+	top: 3px;
+	left: 10px;
+	width: 200px;
+	height: 25px;
+	font-family: Baskerville Old Face;
+	font-size: 18px;
+	text-align: left;
+	color:#fff8f8;
+	background:transparent;
+	border:none
+}
+
+input::placeholder{
+	font-family: Baskerville Old Face;
+	font-size: 18px;
+	text-align: left;
+	color:#fff8f8;
+}
+
+
+.searchicon{
+	top: 5px;
+	left: 208px;
+	width: 19px;
+	height: 20.723388671875px;
+}
+
+
+#albumcover {
+	top: 53px;
+	left: 264px;
+	width: 1022px;
+	height: 279px;
+	background:url("https://agapecoders.com/Projects/speaklife/speaklifealbum/speaklifecover.JPG");
+	background-size: cover;
+	background-position: center;
+	z-index:1001;
+}
+
+
+.searchbox {
+	position:relative;
+	float:left;
+	width: 242px;
+	height: 32px;
+	-ms-border-radius: 9px;
+	-o-border-radius: 9px;
+	-moz-border-radius: 9px;
+	-webkit-border-radius: 9px;
+	border-radius: 9px;
+	border: 1px solid #707070;
+	-ms-box-shadow:0px 3px 5px 1px rgba(0,0,0,0.41);
+	-o-box-shadow:0px 3px 5px 1px rgba(0,0,0,0.41);
+	-webkit-box-shadow:0px 3px 5px 1px rgba(0,0,0,0.41);
+	-moz-box-shadow:0px 3px 5px 1px rgba(0,0,0,0.41);
+	box-shadow:0px 3px 5px 1px rgba(0,0,0,0.20000000298023);
+	background:rgba(188,184,184,255);
+}
+
+
+#search_album {
+	position: absolute;
+	top: 5px;
+	left: 12px;
+	width: 200px;
+	height: 25px;
+	font-family: Baskerville Old Face;
+	font-size: 18px;
+	text-align: center;
+	color:#fff8f8;
+	background:transparent;
+	border:none;
+}
+
+
+#searchicon_ek1 {
+	top: 61px;
+	left: 208px;
+	width: 19px;
+	height: 20.723388671875px;
+}
+
+
+#artists {
+	position:relative;
+	float:left;
+	width: 100%;
+	height: 38px;
+	font-family: Baskerville Old Face;
+	font-size: 28px;
+	text-align: center;
+	color:#fff8f8;
+}
+
+
+#albums {
+	position:relative;
+	float:left;
+	width: 100%;
+	height: 36px;
+	font-family: Baskerville Old Face;
+	font-size: 27px;
+	text-align: center;
+	color:#fff8f8;
+}
+
+
+#artist_contianers {
+	position:relative;
+	float:left;
+	width: 100%;
+	height: auto;
+	border: 1px solid #707070;
+	background:rgba(255,255,255,0.60000002384186);
+}
+
+
+#album_contianers {
+	position: relative;
+	float:left;
+	width: 255px;
+	height: auto;
+	border: 1px solid #707070;
+	background:rgba(255,255,255,0.60000002384186);
+}
+
+
+.artistname_wrapper {
+	opacity:0.45098039215686;
+	width: 257px;
+	height: 32px;
+	background:rgba(102,98,98,115);
+	position:relative;
+	float:left;
+	margin:0px;
+}
+
+
+.albumname_wrapper {
+	position: relative;
+	float:left;
+	width: 100%;
+	height: 32px;
+	background:rgba(102,98,98,0.45098039215686);
+}
+
+
+.artistname {
+	width:100%;
+	height:100%;
+	font-family: Baskerville Old Face;
+	font-size: 18px;
+	text-align: center;
+	color:#fff8f8;
+	margin:0px;
+}
+
+
+.albumname {
+	width:100%;
+	height:100%;
+	font-family: Baskerville Old Face;
+	font-size: 18px;
+	text-align: center;
+	color:#fff8f8;
+	margin:0px;
+}
+
+
+.aritist_name {
+	top: 147px;
+	left: 46px;
+	width: 119px;
+	height: 31px;
+	font-family: Segoe UI;
+	font-size: 20px;
+	text-align: center;
+	color:#ffffff;
+}
+
+
+
+#navigationtoolbar_top {
+	opacity:0.89999997615814;
+	top: 0px;
+	left: 264px;
+	width: 1022px;
+	height: 53px;
+	background:rgba(6,2,69,255);
+}
+
+
+#contact_us {
+	top: 11px;
+	left: 1179px;
+	width: 85px;
+	height: 25px;
+	font-family: Baskerville Old Face;
+	font-size: 18px;
+	text-align: center;
+	color:#ffffff;
+}
+
+
+#events {
+	top: 11px;
+	left: 1105px;
+	width: 53px;
+	height: 25px;
+	font-family: Baskerville Old Face;
+	font-size: 18px;
+	text-align: center;
+	color:#ffffff;
+}
+
+.margin{
+	margin-top:10px;
+}
+
+.hover{
+	cursor:pointer
+}
+
+
+
+/* Add your custom CSS here */
